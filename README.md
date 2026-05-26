@@ -16,7 +16,7 @@ The **CoreCI Workflows** domain is the shared library that defines the pipeline 
 ## Installation
 
 ```bash
-go get github.com/coreci/workflows@v1.0.0
+go get github.com/jonathan-chery/coreci-workflows@v1.0.0
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ go get github.com/coreci/workflows@v1.0.0
 ### Parse a pipeline file
 
 ```go
-import "github.com/coreci/workflows/pipeline"
+import "github.com/jonathan-chery/coreci-workflows/pipeline"
 
 p, err := pipeline.Load(".coreci.yml")
 if err != nil {
@@ -38,7 +38,7 @@ for name, job := range p.Jobs {
 ### Build a DAG from parsed jobs
 
 ```go
-import "github.com/coreci/workflows/dag"
+import "github.com/jonathan-chery/coreci-workflows/dag"
 
 jobs := map[string]struct{ Needs []string }{
     "build": {},

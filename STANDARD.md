@@ -130,8 +130,8 @@ Import the standard library to parse and validate pipeline files:
 
 ```go
 import (
-    "github.com/coreci/workflows/pipeline"
-    "github.com/coreci/workflows/dag"
+    "github.com/jonathan-chery/coreci-workflows/pipeline"
+    "github.com/jonathan-chery/coreci-workflows/dag"
 )
 
 func executePipeline(rawYAML []byte) error {
@@ -163,15 +163,15 @@ func executePipeline(rawYAML []byte) error {
 
 ### Import Instructions
 
-**Module:** `github.com/coreci/workflows`
+**Module:** `github.com/jonathan-chery/coreci-workflows`
 
 ```bash
-go get github.com/coreci/workflows@v1.0.0
+go get github.com/jonathan-chery/coreci-workflows@v1.0.0
 ```
 
 **Packages:**
-- `github.com/coreci/workflows/dag` — Graph operations
-- `github.com/coreci/workflows/pipeline` — YAML parsing and validation
+- `github.com/jonathan-chery/coreci-workflows/dag` — Graph operations
+- `github.com/jonathan-chery/coreci-workflows/pipeline` — YAML parsing and validation
 
 ## API Stability
 

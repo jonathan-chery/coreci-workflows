@@ -1,4 +1,4 @@
-module github.com/coreci/workflows
+module github.com/jonathan-chery/coreci-workflows
 
 go 1.25.0
 

@@ -6,6 +6,10 @@ The **CoreCI Workflows** domain is the shared library that defines the pipeline 
 - DAG construction, topological sorting, and cycle detection
 - Workflow rule evaluation
 
+[![CI](https://github.com/jonathan-chery/coreci-workflows/actions/workflows/ci.yml/badge.svg)](https://github.com/jonathan-chery/coreci-workflows/actions/workflows/ci.yml)
+[![Go Version](https://img.shields.io/badge/go-1.25-blue)](https://go.dev)
+[![Version](https://img.shields.io/github/v/release/jonathan-chery/coreci-workflows)](https://github.com/jonathan-chery/coreci-workflows/releases)
+
 ## Packages
 
 | Package | Description |
@@ -60,9 +64,15 @@ if pipeline.EvaluateRules(job, env) {
 }
 ```
 
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for a full history of changes.
+
 ## Version
 
 Current: **v1.0.0**
+
+Releases: https://github.com/jonathan-chery/coreci-workflows/releases
 
 ## License
 
